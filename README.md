@@ -1,4 +1,4 @@
-# go-dedupe
+# go-dedupe **STILL WIP DO NOT TRUST WITH CRITICAL SYSTEMS**
 
 Go dedupe is a tool for identifying and merging duplicate files. This works by relying on APFS (Apple File System) snapshots and hard links.
 This allows us to hash the contents of files to identify duplicates and then have cloned files point to the original file, maintaining a single copy of the file.
